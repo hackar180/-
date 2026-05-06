@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-bengali: "Hind Siliguri", sans-serif;
+  --font-sans: "Poppins", sans-serif;
+
+  --color-brand-green: #1b4332;
+  --color-brand-gold: #d4af37;
+  --color-brand-orange: #f3722c;
+  --color-brand-blue: #0866ff;
+  --color-earth-tan: #f5ebe0;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-white text-gray-900;
+  }
+
+  .font-bn {
+    @apply font-bengali;
+  }
+}
